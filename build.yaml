@@ -21,4 +21,4 @@
 
 include:  
 - board: nrfmicro/nrf52840
-    shield: wolfhead_split_left
+  shield: wolfhead_split_left
