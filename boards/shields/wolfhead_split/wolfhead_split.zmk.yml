@@ -7,9 +7,6 @@ id: wolfhead_split
 name: wolfhead_split
 type: shield
 
-# Set this to a URL that documents the keyboard.
-url: https://example.com
-
 # Add any features your keyboard supports here.
 # See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
