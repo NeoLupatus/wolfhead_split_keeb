@@ -4,11 +4,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: george-norton
+      url-base: https://github.com/george-norton
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-driver-pmw3360
+      remote: george-norton
+      revision: v0.3
+    - name: zmk-behavior-sensor-attr-cycle
+      remote: george-norton
+      revision: v0.3
+    - name: zmk-driver-rp2040-sleep
+      remote: george-norton
+      revision: v0.3
   self:
     path: config
