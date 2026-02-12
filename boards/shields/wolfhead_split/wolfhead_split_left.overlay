@@ -4,6 +4,7 @@
 
 #include "wolfhead_split.dtsi"
 
+/*
 &kscan {
     // Replace these comments with the GPIO pins in the matrix for the left side.
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
@@ -12,6 +13,7 @@
         , <&gpio0 0 GPIO_ACTIVE_HIGH>
         ;
 };
+*/
 
 &pinctrl {
 	spi0_default: spi0_default {
